@@ -1,0 +1,11 @@
+---
+layout: default
+title: Archive
+---
+<section id="archive">
+	<div class="catbloc" id="allposts">
+    <ul>{% for post in site.posts %}
+    	<li> <time>{{ post.date | date: "%-d %B %Y" }}	</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}</ul>
+	</div>
+</section>
