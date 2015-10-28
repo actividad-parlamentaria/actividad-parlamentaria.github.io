@@ -2,7 +2,7 @@
 title:       Nicolás Siplis
 email:       nicolas.siplis+contact@gmail.com
 author:      Nicolás Siplis
-description: "Personal Blod"
+description: "The excitingly boring adventures of an incompetent programmer"
 baseurl:     ""
 url:         "https://nicolas-siplis.github.io"
 date_format: "%b %-d, %Y"
@@ -17,10 +17,6 @@ show_related_posts:   false
 show_post_footers:    false
 show_social_icons:    true
 ajaxify_contact_form: true
-
-# Disqus post comments
-# (leave blank to disable Disqus)
-disqus_shortname: 
 
 # Social icons
 github_username: nicolas-siplis
