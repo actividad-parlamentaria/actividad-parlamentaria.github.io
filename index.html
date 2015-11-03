@@ -1,27 +1,24 @@
 ---
-layout: base
+layout: default
 ---
-<div class="wrapper">
-    <header>
-        {% if site.compass.logo %}
-        <div class="logo-container">
-          <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.compass.logo }}')"></a>
-        </div>
-        {% endif %}
 
-        {% if site.compass.author %}
-        <div class="author-container"><h1>{{ site.compass.author }}</h1></div>
-        {% endif %}
+<div class="home">
 
-        {% if site.compass.tagline %}
-        <div class="tagline-container"><p>{{ site.compass.tagline }}</p></div>
-        {% endif %}
-    </header>
-    <main>
-      {% if site.compass.include_content %}
-      <div class="content">
-        {% include content.html %}
+  <div class="posts">
+    {% for post in paginator.posts %}
+      <div class="post py3">
+        <p class="post-meta">{{ post.date | date: site.date_format }}</p>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
+        <p class="post-summary">
+          {% if post.summary %}
+            {{ post.summary }}
+          {% else %}
+            {{ post.excerpt }}
+          {% endif %}
+        </p>
       </div>
-      {% endif %}
-    </main>
+    {% endfor %}
+  </div>
+
+  {% include pagination.html %}
 </div>
