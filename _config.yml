@@ -1,27 +1,58 @@
-# general configuration
-url: http://excentris.net
-baseurl: ''
+# Site settings
+title:       Nicolás Siplis
+email:       nicolas.siplis+contact@gmail.com
+author:      Nicolás Siplis
+description: "The excitingly boring adventures of an incompetent programmer"
+baseurl:     ""
+url:         "https://nicolas-siplis.github.io"
+date_format: "%b %-d, %Y"
 
-# compass configuration
-compass:
-  # an avatar or logo (optional)
-  logo: "/images/compass.png"
-  # author will appear under the avatar (optional)
-  author: "Nicolás Siplis"
-  # tagline will appear under the title (optional)
-  tagline: "The excitingly boring adventures of a newbie programmer"
-  # if include_content is true, the contents of the content.html include will be
-  # added right above the generated item list, if present
-  include_content: true
-  # if include_analytics is true, the content of the analytics.html include will
-  # be added at the end of the <head> section. You can add your Google Analytics
-  # Tracking Code to that file.
-  include_analytics: false
+# Google services
+google_analytics:
+google_verification:
 
-# Dependencies
-markdown: kramdown
-highlighter: pygments
+# Optional features
+animated:             true
+show_related_posts:   false
+show_post_footers:    false
+show_social_icons:    true
+ajaxify_contact_form: false
 
-# Permalinks
-permalink: pretty
-relative_permalinks: true
+# Disqus post comments
+disqus_shortname: nicolassiplis
+
+# Social icons
+github_username: nicolas-siplis
+bitbucket_username:
+stackoverflow_id: 4572619
+twitter_username: nicolas_siplis
+google_plus_id: 107319422281459204117
+linkedin_username:
+angellist_username:
+medium_id:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Post sharing icons
+show_sharing_icons: true
+share_text:
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: true
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: true
+share_stumbleupon: false
+share_hackernews: true
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     4
+sass:
+  compressed: true
