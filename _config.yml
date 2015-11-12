@@ -1,10 +1,10 @@
 # Site settings
-title:       Nicolás Siplis
-email:       nicolas.siplis+contact@gmail.com
-author:      Nicolás Siplis
-description: "The excitingly boring adventures of an incompetent programmer"
+title:       Actividad Parlamentaria
+email:       actividad.parlamentaria@gmx.com
+author:      Actividad Parlamentaria
+description: ""
 baseurl:     ""
-url:         "https://nicolas-siplis.github.io"
+url:         "https://actividad-parlamentaria.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -19,14 +19,14 @@ show_social_icons:    true
 ajaxify_contact_form: false
 
 # Disqus post comments
-disqus_shortname: nicolassiplis
+disqus_shortname:
 
 # Social icons
-github_username: nicolas-siplis
+github_username:
 bitbucket_username:
-stackoverflow_id: 4572619
-twitter_username: nicolas_siplis
-google_plus_id: 107319422281459204117
+stackoverflow_id:
+twitter_username:
+google_plus_id:
 linkedin_username:
 angellist_username:
 medium_id:
