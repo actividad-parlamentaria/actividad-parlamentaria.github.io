@@ -5,7 +5,7 @@ author:      Actividad Parlamentaria
 description: ""
 baseurl:     ""
 url:         "https://actividad-parlamentaria.github.io"
-date_format: "%b %-d, %Y"
+date_format: date_to_string
 
 # Google services
 google_analytics:
