@@ -1,41 +1,7 @@
 ---
 layout: post
-title:  "Hello world!"
-date:   2015-10-25
+title:  "Post de prueba"
+date:   2015-12-11
 ---
 
-Everything seems to be working, setting Jekyll up took longer than expected but things should be running smoothly now.
-
-{% highlight python lineanchors %}
-if True:
-	HelloWorld = 'Hello world!'
-	print(HelloWorld)
-for i in HelloWorld:
-	print(i)
-{% endhighlight %}
-
-
-{% highlight css %}
-.foobar {
-  /* Named colors rule */
-  color: tomato;
-}
-{% endhighlight %}
-
-
-{% highlight js %}
-var isPresent = require('is-present')
-
-module.exports = function doStuff(things) {
-  if (isPresent(things)) {
-    doOtherStuff(things)
-  }
-}
-{% endhighlight %}
-
-
-{% highlight html %}
-<div class="m0 p0 bg-blue white">
-  <h3 class="h1">Hello, world!</h3>
-</div>
-{% endhighlight %}
+Primer post, *probando* **sintaxis**, [anda todo bien](se.com)
